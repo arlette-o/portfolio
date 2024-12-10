@@ -1,0 +1,191 @@
+[
+  {
+    "name": "React",
+    "type": "Frontend Development",
+    "logo": "string",
+    "description": "JavaScript library for building user interfaces",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "React Redux",
+    "type": "Frontend Development",
+    "logo": "string",
+    "description": "State management library for JavaScript apps",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "MUI (Material-UI)",
+    "type": "Frontend Development",
+    "logo": "string",
+    "description": "A popular React UI framework that provides a set of components based on Material Design.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Next.js",
+    "type": "Frontend Development",
+    "logo": "string",
+    "description": "A React framework for building server-side rendered applications.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Figma",
+    "type": "Frontend Development",
+    "logo": "string",
+    "description": "Design tool for UI/UX, commonly used for creating wireframes and prototypes.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Node.js",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "JavaScript runtime for building server-side applications.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Express",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "Web framework for Node.js to build APIs and web apps.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Flask",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "Python micro web framework for backend development",
+    "proficiency": "Beginner"
+  },
+  {
+    "name": "Django",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "High-level Python web framework for building backend applications.",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "GraphQL",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "A query language for APIs and runtime for executing those queries.",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "Apollo",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "A GraphQL implementation that includes a client and server.",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "REST APIs",
+    "type": "Backend Development",
+    "logo": "string",
+    "description": "A set of rules for building APIs that allow communication between systems using HTTP methods.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "MongoDB",
+    "type": "Databases",
+    "logo": "string",
+    "description": "NoSQL database, document-based.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "PostgreSQL",
+    "type": "Databases",
+    "logo": "string",
+    "description": "Relational database",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "Studio 3T",
+    "type": "Databases",
+    "logo": "string",
+    "description": "A GUI and IDE for working with MongoDB databases.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Postman",
+    "type": "Testing and Quality Assurance",
+    "logo": "string",
+    "description": " A tool for testing APIs",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Jest",
+    "type": "Testing and Quality Assurance",
+    "logo": "string",
+    "description": "JavaScript testing framework, often used with React and other JavaScript apps.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "PlayWright",
+    "type": "Testing and Quality Assurance",
+    "logo": "string",
+    "description": "End-to-end testing tool for web apps, designed for browser automation",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "TDD (Test Driven Development)",
+    "type": "Testing and Quality Assurance",
+    "logo": "string",
+    "description": "A software development process where tests are written before the code.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Git",
+    "type": "Version Control",
+    "logo": "string",
+    "description": "Distributed version control system for tracking code changes.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "CI/CD",
+    "type": "CI/CD",
+    "logo": "string",
+    "description": "Continuous Integration and Continuous Deployment practices, automating the integration and deployment process.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Docker",
+    "type": "Cloud and DevOps",
+    "logo": "string",
+    "description": "Platform for developing, shipping, and running applications inside containers.",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "AWS (Amazon Web Services)",
+    "type": "Cloud and DevOps",
+    "logo": "string",
+    "description": "A cloud computing platform for hosting applications and services.",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "Azure",
+    "type": "Cloud and DevOps",
+    "logo": "string",
+    "description": "Microsoft's cloud computing platform for hosting and managing applications and services.",
+    "proficiency": "Beginner"
+  },
+  {
+    "name": "DataDog",
+    "type": "Cloud and DevOps",
+    "logo": "string",
+    "description": "Monitoring and analytics platform for cloud-scale applications.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Agile / SCRUM methodologies",
+    "type": "Project Management and Methodologies",
+    "logo": "string",
+    "description": "Agile practices and Scrum framework for iterative project management and development.",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Jira",
+    "type": "Project Management and Methodologies",
+    "logo": "string",
+    "description": "Project management and issue tracking tool",
+    "proficiency": "Advanced"
+  }
+]

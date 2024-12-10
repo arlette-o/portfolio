@@ -1,21 +1,30 @@
 import React from "react";
 import "./App.css";
 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import Navbar from "./components/Navbar.tsx";
+import Footer from "./components/Footer.tsx";
 import AboutMe from "./pages/AboutMe.tsx";
-import WorkTimeline from "./components/WorkTimeline.tsx";
-import Skills from "./pages/Skills.tsx";
+import Projects from "./pages/Proects.tsx";
+
 import { theme } from "./theme.ts";
+import Skills from "./pages/Skills.tsx";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Navbar />
-      <AboutMe />
-      <Skills />
-      <WorkTimeline />
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Footer />
+      </ThemeProvider>
+    </Router>
   );
 }
 

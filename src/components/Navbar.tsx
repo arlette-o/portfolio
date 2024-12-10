@@ -11,33 +11,61 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
-import Arlette from "../static/olalde.jpg";
+import SocialMediaProps from "../types/SocialMediaProps";
+import WebPageProps from "../types/WebPageProps";
 
-const pages = ["Skills", "Projects", "Resume"];
-const settings = ["LinkedIn", "GitHub", "Email"];
+import Arlette from "../static/images/olalde.jpg";
+
+const pages: WebPageProps[] = [
+  { name: "About Me", url: "/" },
+  { name: "Skills", url: "/skills" },
+  { name: "Projects", url: "/projects" },
+];
+
+const socialMedia: SocialMediaProps[] = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/arlette-olalde-75a3a7234/",
+    logo: <LinkedInIcon sx={{ color: "#121D40" }} />,
+  },
+  {
+    name: "Github",
+    url: "https://github.com/arlette-o",
+    logo: <GitHubIcon sx={{ color: "#121D40" }} />,
+  },
+  {
+    name: "Email",
+    url: "mailto:aolaldeflores@gmail.com",
+    logo: <EmailIcon sx={{ color: "#121D40" }} />,
+  },
+];
 
 function ResponsiveAppBar() {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
-    null
-  );
+  const [navAnchor, setNavAnchor] = React.useState<null | HTMLElement>(null);
+  const [userAnchor, setUserAnchor] = React.useState<null | HTMLElement>(null);
 
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget);
+  const openNavMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setNavAnchor(event.currentTarget);
   };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
+  const openUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setUserAnchor(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const closeNavMenu = () => {
+    setNavAnchor(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
+  const closeMenu = () => {
+    setUserAnchor(null);
+  };
+
+  const openWebPage = (url: string) => {
+    window.open(url);
+    closeMenu();
   };
 
   return (
@@ -67,14 +95,14 @@ function ResponsiveAppBar() {
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
-              onClick={handleOpenNavMenu}
+              onClick={openNavMenu}
               color="inherit"
             >
               <MenuIcon />
             </IconButton>
             <Menu
               id="menu-appbar"
-              anchorEl={anchorElNav}
+              anchorEl={navAnchor}
               anchorOrigin={{
                 vertical: "bottom",
                 horizontal: "left",
@@ -84,13 +112,15 @@ function ResponsiveAppBar() {
                 vertical: "top",
                 horizontal: "left",
               }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
+              open={Boolean(navAnchor)}
+              onClose={closeNavMenu}
               sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textAlign: "center" }}>{page}</Typography>
+                <MenuItem key={page.name} onClick={closeNavMenu}>
+                  <Typography sx={{ textAlign: "center" }}>
+                    {page.name}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -116,17 +146,17 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
-                key={page}
-                onClick={handleCloseNavMenu}
+                key={page.name}
+                onClick={closeNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                {page.name}
               </Button>
             ))}
           </Box>
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+            <Tooltip title="Connect With Me!">
+              <IconButton onClick={openUserMenu} sx={{ p: 0 }}>
                 <Avatar
                   alt="Arlette Olalde"
                   src={Arlette}
@@ -137,7 +167,7 @@ function ResponsiveAppBar() {
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"
-              anchorEl={anchorElUser}
+              anchorEl={userAnchor}
               anchorOrigin={{
                 vertical: "top",
                 horizontal: "right",
@@ -147,13 +177,14 @@ function ResponsiveAppBar() {
                 vertical: "top",
                 horizontal: "right",
               }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
+              open={Boolean(userAnchor)}
+              onClose={closeMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography sx={{ textAlign: "center" }}>
-                    {setting}
+              {socialMedia.map((web) => (
+                <MenuItem key={web.name} onClick={() => openWebPage(web.url)}>
+                  {web.logo}
+                  <Typography sx={{ textAlign: "center", ml: 1 }}>
+                    {web.name}
                   </Typography>
                 </MenuItem>
               ))}
