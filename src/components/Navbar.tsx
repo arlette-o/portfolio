@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -45,6 +46,7 @@ const socialMedia: SocialMediaProps[] = [
 ];
 
 function ResponsiveAppBar() {
+  const navigate = useNavigate();
   const [navAnchor, setNavAnchor] = React.useState<null | HTMLElement>(null);
   const [userAnchor, setUserAnchor] = React.useState<null | HTMLElement>(null);
 
@@ -55,7 +57,8 @@ function ResponsiveAppBar() {
     setUserAnchor(event.currentTarget);
   };
 
-  const closeNavMenu = () => {
+  const closeNavMenu = (url: string) => {
+    navigate(url);
     setNavAnchor(null);
   };
 
@@ -117,7 +120,10 @@ function ResponsiveAppBar() {
               sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.name} onClick={closeNavMenu}>
+                <MenuItem
+                  key={page.name}
+                  onClick={() => closeNavMenu(page.url)}
+                >
                   <Typography sx={{ textAlign: "center" }}>
                     {page.name}
                   </Typography>
@@ -147,7 +153,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page.name}
-                onClick={closeNavMenu}
+                onClick={() => closeNavMenu(page.url)}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page.name}
