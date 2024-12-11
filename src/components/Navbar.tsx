@@ -12,35 +12,15 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
 
-import SocialMediaProps from "../static/types/SocialMediaProps.tsx";
 import WebPageProps from "../static/types/WebPageProps.tsx";
+
+import { socialMedia } from "../static/constants/socialMedia.tsx";
 
 const pages: WebPageProps[] = [
   { name: "About Me", url: "/" },
   { name: "Skills", url: "/skills" },
   { name: "Projects", url: "/projects" },
-];
-
-const socialMedia: SocialMediaProps[] = [
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/arlette-olalde-75a3a7234/",
-    logo: <LinkedInIcon sx={{ color: "#121D40" }} />,
-  },
-  {
-    name: "Github",
-    url: "https://github.com/arlette-o",
-    logo: <GitHubIcon sx={{ color: "#121D40" }} />,
-  },
-  {
-    name: "Email",
-    url: "mailto:aolaldeflores@gmail.com",
-    logo: <EmailIcon sx={{ color: "#121D40" }} />,
-  },
 ];
 
 function ResponsiveAppBar() {

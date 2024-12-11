@@ -48,7 +48,7 @@ export default function SkillCard(props: SkillCardProps) {
           My Experience
         </Typography>
         <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          [To be filed]
+          [To be filled]
         </Typography>
       </Box>
       <Divider />

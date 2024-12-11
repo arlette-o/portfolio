@@ -127,7 +127,13 @@ export default function Projects() {
           </Box>
         </Grid>
       </Grid>
-      <Stack direction="row" spacing={3} justifyContent={"center"} mt={6}>
+      <Stack
+        direction={{ md: "row", xs: "column" }}
+        spacing={3}
+        justifyContent={"center"}
+        alignItems={"center"}
+        mt={6}
+      >
         {projectCards.map((project, _) => (
           <ProjectCard
             key={project.title}
