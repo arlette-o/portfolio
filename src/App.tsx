@@ -7,7 +7,7 @@ import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import Navbar from "./components/Navbar.tsx";
 import Footer from "./components/Footer.tsx";
 import AboutMe from "./pages/AboutMe.tsx";
-import Projects from "./pages/Proects.tsx";
+import Projects from "./pages/Projects.tsx";
 
 import { theme } from "./theme.ts";
 import Skills from "./pages/Skills.tsx";

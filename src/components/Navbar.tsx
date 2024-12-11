@@ -19,8 +19,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import SocialMediaProps from "../types/SocialMediaProps";
 import WebPageProps from "../types/WebPageProps";
 
-import Arlette from "../static/images/olalde.jpg";
-
 const pages: WebPageProps[] = [
   { name: "About Me", url: "/" },
   { name: "Skills", url: "/skills" },
@@ -165,7 +163,7 @@ function ResponsiveAppBar() {
               <IconButton onClick={openUserMenu} sx={{ p: 0 }}>
                 <Avatar
                   alt="Arlette Olalde"
-                  src={Arlette}
+                  src="/images/olalde.jpg"
                   sx={{ width: 50, height: 50 }}
                 />
               </IconButton>

@@ -7,12 +7,14 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import DownloadIcon from "@mui/icons-material/Download";
 
-import resumePic from "../static/images/resume.png";
-
 export default function Resume() {
   return (
     <Card>
-      <CardMedia sx={{ height: 200 }} image={resumePic} title="Olalde_Resume" />
+      <CardMedia
+        sx={{ height: 200 }}
+        image="/images/resume.png"
+        title="Olalde_Resume"
+      />
       <CardContent>
         <Typography
           gutterBottom

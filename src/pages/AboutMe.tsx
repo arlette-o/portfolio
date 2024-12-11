@@ -6,8 +6,6 @@ import Typography from "@mui/material/Typography";
 import WorkTimeline from "../components/WorkTimeline.tsx";
 import Resume from "../components/Resume.tsx";
 
-import great_wave from "../static/images/great_wave.jpg";
-
 //Also known as home page
 export default function AboutMe() {
   return (
@@ -15,13 +13,13 @@ export default function AboutMe() {
       <Box component="section" textAlign={"right"}>
         <img
           className="image"
-          src={great_wave}
+          src="/images/great_wave.jpg"
           alt="great_wave_tech"
           style={{ width: "100%", height: "auto" }}
         />
         <Typography variant="caption" gutterBottom>
-          Original Artwork by Alain Bousquet conversion into PCB Layout by
-          Micheal Derrenbacher
+          Original Artwork by Alain Bousquet <br /> Conversion into PCB Layout
+          by Micheal Derrenbacher
         </Typography>
       </Box>
 
