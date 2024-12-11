@@ -10,7 +10,7 @@ import Grid from "@mui/material/Grid2";
 export default function Projects() {
   return (
     <Box>
-      <Grid container spacing={1}>
+      <Grid container>
         <Grid size={1} />
         <Grid size={2}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
@@ -33,7 +33,6 @@ export default function Projects() {
             </CardContent>
           </Card>
         </Grid>
-
         <Grid size={6} textAlign={"center"}>
           <Box sx={{ background: "#809BB3" }}>
             <img
@@ -44,19 +43,18 @@ export default function Projects() {
             />
           </Box>
         </Grid>
-
         <Grid size={2}>
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
               src="/images/VBG_Mobile.png"
               alt="VBG_Mobile"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "79%", height: "auto" }}
             />
           </Box>
         </Grid>
       </Grid>
-      <Grid container spacing={1}>
+      <Grid container>
         <Grid size={1} />
         <Grid size={2}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
@@ -65,10 +63,9 @@ export default function Projects() {
                 LaundroMapp
               </Typography>
               <Divider />
-              <Typography variant="body2">
-                A portal where clients could log in and view the status of their
-                claim as well as update their information and upload/view
-                documents
+              <Typography gutterBottom variant="body2">
+                A webpage where clients can view machine availability, submit
+                for coupons, and schedule laundry pickups
               </Typography>
               <Divider />
               <Typography variant="body2">
@@ -81,19 +78,24 @@ export default function Projects() {
         </Grid>
 
         <Grid size={6} textAlign={"center"}>
-          <img
-            className="image"
-            src="/images/LaundroMapp.png"
-            alt="LaundroMapp_Desktop"
-            style={{ width: "100%", height: "auto" }}
-          />
+          <Box sx={{ background: "#809BB3" }}>
+            <img
+              className="image"
+              src="/images/LaundroMapp.png"
+              alt="LaundroMapp_Desktop"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </Box>
         </Grid>
         <Grid size={2}>
-          <img
-            className="image"
-            src="/images/LaundroMapp_Mobile.png"
-            alt="LaundroMapp_Mobile"
-          />
+          <Box sx={{ background: "#809BB3" }}>
+            <img
+              className="image"
+              src="/images/LaundroMapp_Mobile.png"
+              alt="LaundroMapp_Mobile"
+              style={{ width: "79%", height: "auto" }}
+            />
+          </Box>
         </Grid>
       </Grid>
     </Box>
