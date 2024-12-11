@@ -14,12 +14,24 @@ export default function Resume() {
     <Card>
       <CardMedia sx={{ height: 200 }} image={resumePic} title="Olalde_Resume" />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          textAlign={"center"}
+        >
           My Resume
         </Typography>
       </CardContent>
       <CardActions>
-        <Button startIcon={<DownloadIcon />}>Download</Button>
+        <Button
+          startIcon={<DownloadIcon />}
+          href="/Olalde_A_Resume.pdf"
+          download="Olalde_A_Resume.pdf"
+          sx={{ color: "#121D40" }}
+        >
+          Download
+        </Button>
       </CardActions>
     </Card>
   );

@@ -37,8 +37,18 @@ export default function SkillCard(props: SkillCardProps) {
             alt={props.name + " Logo"}
           />
         </Stack>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+        <Typography
+          variant="body2"
+          gutterBottom
+          sx={{ color: "text.secondary" }}
+        >
           {props.description}
+        </Typography>
+        <Typography gutterBottom variant="body2" component="div">
+          My Experience
+        </Typography>
+        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+          [To be filed]
         </Typography>
       </Box>
       <Divider />

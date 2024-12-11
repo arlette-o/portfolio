@@ -32,7 +32,9 @@ export default function AboutMe() {
             Hi. I am Arlette Olalde, a Los Angeles based Full Stack Developer
             with over 2 years of experience.
           </Typography>
-          Languages: JavaScript, TypeScript, Python, Java, SQL, C#, C
+          <Typography variant="h6" gutterBottom>
+            Languages: JavaScript, TypeScript, Python, Java, SQL, C#, C
+          </Typography>
         </Grid>
         <Grid size={2} />
       </Grid>

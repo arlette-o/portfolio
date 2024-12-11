@@ -187,5 +187,54 @@
     "logo": "string",
     "description": "Project management and issue tracking tool",
     "proficiency": "Advanced"
+  },
+  {
+    "name": "TypeScript",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "JavaScript",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Python",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Advanced"
+  },
+  {
+    "name": "Java",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "SQL",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "C#",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Intermediate"
+  },
+  {
+    "name": "C",
+    "type": "Programming Language",
+    "logo": "string",
+    "description": "",
+    "proficiency": "Advanced"
   }
 ]
