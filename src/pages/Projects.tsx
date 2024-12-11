@@ -10,6 +10,8 @@ import Grid from "@mui/material/Grid2";
 export default function Projects() {
   return (
     <Box>
+      <br />
+      <br />
       <Grid container>
         <Grid size={1} />
         <Grid size={2}>
@@ -49,11 +51,13 @@ export default function Projects() {
               className="image"
               src="/images/VBG_Mobile.png"
               alt="VBG_Mobile"
-              style={{ width: "79%", height: "auto" }}
+              style={{ width: "78%", height: "auto" }}
             />
           </Box>
         </Grid>
       </Grid>
+      <br />
+      <br />
       <Grid container>
         <Grid size={1} />
         <Grid size={2}>
@@ -83,7 +87,7 @@ export default function Projects() {
               className="image"
               src="/images/LaundroMapp.png"
               alt="LaundroMapp_Desktop"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "90%", height: "auto" }}
             />
           </Box>
         </Grid>
@@ -93,7 +97,7 @@ export default function Projects() {
               className="image"
               src="/images/LaundroMapp_Mobile.png"
               alt="LaundroMapp_Mobile"
-              style={{ width: "79%", height: "auto" }}
+              style={{ width: "78.4%", height: "auto" }}
             />
           </Box>
         </Grid>
