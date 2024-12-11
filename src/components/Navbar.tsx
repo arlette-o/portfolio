@@ -16,8 +16,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 
-import SocialMediaProps from "../types/SocialMediaProps";
-import WebPageProps from "../types/WebPageProps";
+import SocialMediaProps from "../static/types/SocialMediaProps.tsx";
+import WebPageProps from "../static/types/WebPageProps.tsx";
 
 const pages: WebPageProps[] = [
   { name: "About Me", url: "/" },

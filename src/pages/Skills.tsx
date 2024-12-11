@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
 import SkillCard from "../components/SkillCard.tsx";
-import SkillCardProps from "../types/SkillCardProps.tsx";
+import SkillCardProps from "../static/types/SkillCardProps.tsx";
 import skills from "../static/json/skills.json";
 import { Typography } from "@mui/material";
 
@@ -62,9 +62,15 @@ export default function Skills() {
         <Grid size={2} />
       </Grid>
 
-      <Grid container spacing={2} alignItems={"center"} mt={2}>
+      <Grid
+        container
+        spacing={2}
+        alignItems={"center"}
+        mt={2}
+        ml={{ md: 8, xs: 2 }}
+      >
         {skillCards.map((skill, _) => (
-          <Grid size={3} key={skill.name}>
+          <Grid size={{ md: 3, xs: 12 }} key={skill.name}>
             <SkillCard
               name={skill.name}
               type={skill.type}

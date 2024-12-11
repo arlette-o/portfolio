@@ -25,8 +25,12 @@ export default function AboutMe() {
 
       <Grid container spacing={1}>
         <Grid size={2} />
-        <Grid size={8} textAlign={"center"}>
-          <Typography variant="h3" gutterBottom>
+        <Grid size={{ md: 8, xs: 12 }} textAlign={"center"}>
+          <Typography
+            variant="h3"
+            gutterBottom
+            sx={{ fontSize: { xs: "1.8rem", sm: "3rem", md: "3rem" } }}
+          >
             Hi. I am Arlette Olalde, a Los Angeles based Full Stack Developer
             with over 2 years of experience.
           </Typography>
@@ -37,11 +41,15 @@ export default function AboutMe() {
         <Grid size={2} />
       </Grid>
       <Grid container>
-        <Grid size={0.5} />
-        <Grid size={3.5} alignContent={"center"} justifyContent={"right"}>
+        <Grid size={{ md: 0.5 }} />
+        <Grid
+          size={{ md: 3.5, xs: 12 }}
+          alignContent={"center"}
+          justifyContent={"right"}
+        >
           <Resume />
         </Grid>
-        <Grid size={8}>
+        <Grid size={{ md: 8, xs: 12 }}>
           <WorkTimeline />
         </Grid>
       </Grid>

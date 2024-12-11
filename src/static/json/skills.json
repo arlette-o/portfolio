@@ -25,7 +25,7 @@
     "type": "Frontend Development",
     "logo": "string",
     "description": "A React framework for building server-side rendered applications.",
-    "proficiency": "Advanced"
+    "proficiency": "Intermediate"
   },
   {
     "name": "Figma",
@@ -95,7 +95,7 @@
     "type": "Databases",
     "logo": "string",
     "description": "Relational database",
-    "proficiency": "Intermediate"
+    "proficiency": "Beginner"
   },
   {
     "name": "Studio 3T",
@@ -116,7 +116,7 @@
     "type": "Testing and Quality Assurance",
     "logo": "string",
     "description": "JavaScript testing framework, often used with React and other JavaScript apps.",
-    "proficiency": "Advanced"
+    "proficiency": "Intermediate"
   },
   {
     "name": "PlayWright",
@@ -228,7 +228,7 @@
     "type": "Programming Language",
     "logo": "string",
     "description": "",
-    "proficiency": "Intermediate"
+    "proficiency": "Beginner"
   },
   {
     "name": "C",

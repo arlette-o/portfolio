@@ -6,10 +6,34 @@ import CardContent from "@mui/material/CardContent";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
+import Stack from "@mui/material/Stack";
+
+import ProjectCard from "../components/ProjectCard.tsx";
+
+import projects from "../static/json/projects.json";
+import ProjectCardProps from "../static/types/ProjectCardProps.tsx";
+
+//ToDo: Add card action area where user can visit site
+
+const projectCards: ProjectCardProps[] = projects.map((item) => ({
+  title: item.title,
+  image: item.image,
+  description: item.description,
+}));
 
 export default function Projects() {
   return (
     <Box>
+      <br />
+      <Grid container spacing={1}>
+        <Grid size={2} />
+        <Grid size={8} textAlign={"center"}>
+          <Typography variant="h3" gutterBottom>
+            Explore projects that I have worked on
+          </Typography>
+        </Grid>
+        <Grid size={2} />
+      </Grid>
       <br />
       <br />
       <Grid container>
@@ -29,7 +53,8 @@ export default function Projects() {
               <Divider />
               <Typography variant="body2">
                 <li>JavaScript </li>
-                <li>React/Redux</li> <li>APIs</li> <li>Semantic HTML </li>
+                <li>React/Redux</li> <li>API connections</li>{" "}
+                <li>Semantic HTML </li>
                 <li>Responsive CSS</li>
               </Typography>
             </CardContent>
@@ -73,8 +98,8 @@ export default function Projects() {
               </Typography>
               <Divider />
               <Typography variant="body2">
-                <li>JavaScript </li>
-                <li>React/Redux</li> <li>APIs</li> <li>Semantic HTML </li>
+                <li>TypeScript </li>
+                <li>Next.js</li> <li>APIs</li> <li>Semantic HTML </li>
                 <li>Responsive CSS</li>
               </Typography>
             </CardContent>
@@ -102,6 +127,16 @@ export default function Projects() {
           </Box>
         </Grid>
       </Grid>
+      <Stack direction="row" spacing={3} justifyContent={"center"} mt={6}>
+        {projectCards.map((project, _) => (
+          <ProjectCard
+            key={project.title}
+            title={project.title}
+            image={project.image}
+            description={project.description}
+          />
+        ))}
+      </Stack>
     </Box>
   );
 }

@@ -7,7 +7,7 @@ import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import CardMedia from "@mui/material/CardMedia";
 
-import SkillCardProps from "../types/SkillCardProps.tsx";
+import SkillCardProps from "../static/types/SkillCardProps.tsx";
 
 export default function SkillCard(props: SkillCardProps) {
   const adv = props.proficiency === "Advanced";
