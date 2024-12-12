@@ -110,7 +110,7 @@ export default function Projects() {
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
-              src="/images/LaundroMapp.png"
+              src="/images/Laundromapp.png"
               alt="LaundroMapp_Desktop"
               style={{ width: "90%", height: "auto" }}
             />
