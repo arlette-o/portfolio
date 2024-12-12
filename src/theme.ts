@@ -52,4 +52,7 @@ export const theme = createTheme({
       contrastText: "#000000",
     },
   },
+  typography: {
+    fontFamily: '"monospace", serif',
+  },
 });

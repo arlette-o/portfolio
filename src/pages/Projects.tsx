@@ -1,7 +1,9 @@
 import * as React from "react";
 
 import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
@@ -22,6 +24,10 @@ const projectCards: ProjectCardProps[] = projects.map((item) => ({
 }));
 
 export default function Projects() {
+  const visitSite = (url: string) => {
+    window.open(url);
+  };
+
   return (
     <Box>
       <br />
@@ -37,7 +43,7 @@ export default function Projects() {
       <br />
       <br />
       <Grid container>
-        <Grid size={1} />
+        <Grid size={0.7} />
         <Grid size={{ md: 2, xs: 10 }}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
             <CardContent>
@@ -45,21 +51,47 @@ export default function Projects() {
                 VBG Client Portal
               </Typography>
               <Divider />
-              <Typography variant="body2">
-                A portal where clients could log in and view the status of their
-                claim as well as update their information and upload/view
-                documents
+              <Typography gutterBottom variant="body2">
+                <strong>DESCRIPTION</strong> <br />A portal where clients could
+                log in and view the status of their claim as well as update
+                their information and upload/view documents
               </Typography>
               <Divider />
-              <Typography variant="body2">
+              <Typography gutterBottom variant="body2">
+                <strong>RESPONSIBILITIES</strong>
+                <br /> I was one of two engineers that created this site from
+                ground-up. Some notable features are 2FA, password recovery, an
+                admin panel, document management, and connection to our internal
+                CRM.
+              </Typography>
+              <Divider />
+              <Typography gutterBottom variant="body2">
+                <strong>TECHNOLOGIES</strong>
                 <li>JavaScript </li>
-                <li>React/Redux</li> <li>API connections</li>{" "}
+                <li>React/Redux</li>
+                <li>API connections</li>
                 <li>Semantic HTML </li>
                 <li>Responsive CSS</li>
+                <li>AWS S3, ECS </li>
+                <li>Docker</li>
               </Typography>
+              <CardActions sx={{ justifyContent: "center" }}>
+                <Button
+                  variant="contained"
+                  sx={{ background: "#121D40" }}
+                  onClick={() =>
+                    visitSite("https://vetportal.joshcogroup.com/signin")
+                  }
+                >
+                  Visit Site
+                </Button>
+              </CardActions>
             </CardContent>
           </Card>
         </Grid>
+
+        <Grid size={0.5} />
+
         <Grid size={{ md: 6, xs: 12 }} textAlign={"center"}>
           <Box sx={{ background: "#809BB3" }}>
             <img
@@ -84,7 +116,7 @@ export default function Projects() {
       <br />
       <br />
       <Grid container>
-        <Grid size={1} />
+        <Grid size={0.7} />
         <Grid size={{ md: 2, xs: 10 }}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
             <CardContent>
@@ -93,18 +125,40 @@ export default function Projects() {
               </Typography>
               <Divider />
               <Typography gutterBottom variant="body2">
-                A webpage where clients can view machine availability, submit
-                for coupons, and schedule laundry pickups
+                <strong>DESCRIPTION</strong> <br />A webpage where clients can
+                view machine availability, submit for coupons, and schedule
+                laundry pickups
+              </Typography>
+              <Divider />
+              <Typography gutterBottom variant="body2">
+                <strong>RESPONSIBILITIES</strong>
+                <br />
+                This is a full stack web app conceptualized, designed, and coded
+                by yours truly.
               </Typography>
               <Divider />
               <Typography variant="body2">
+                <strong>TECHNOLOGIES</strong>
                 <li>TypeScript </li>
                 <li>Next.js</li> <li>APIs</li> <li>Semantic HTML </li>
                 <li>Responsive CSS</li>
               </Typography>
+              <CardActions sx={{ justifyContent: "center" }}>
+                <Button
+                  variant="contained"
+                  sx={{ background: "#121D40" }}
+                  onClick={() =>
+                    visitSite("https://main.d189tg24c2jbd.amplifyapp.com/")
+                  }
+                >
+                  Visit Site
+                </Button>
+              </CardActions>
             </CardContent>
           </Card>
         </Grid>
+
+        <Grid size={0.5} />
 
         <Grid size={{ md: 6, xs: 12 }} textAlign={"center"}>
           <Box sx={{ background: "#809BB3" }}>

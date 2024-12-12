@@ -37,17 +37,20 @@ export default function AboutMe() {
           <Typography variant="h6" gutterBottom>
             Languages: JavaScript, TypeScript, Python, Java, SQL, C#, C
           </Typography>
-          I believe that I would be able to fit perfectly in any position as I
-          am a very flexible worker; I can excel in any environment that I am
-          in. The team at my last position was relatively small, therefore I had
-          a hand in a little bit of everything when it came to designing and
-          deploying our webapps. I worked with Product Mangers to determine what
-          critical and nice-to-have features looked like based on requirements
-          given by stakeholders. I gave feedback and suggestions to our designer
-          for what our webapps would look like. I assisted our lead engineer in
-          provisioning deployment tools and AWS services as well as frameworks
-          for our webapps. I also had a hand in helping our DevOps engineer when
-          it came to the containerization of our app using Docker.
+          <Typography variant="body1" gutterBottom>
+            I believe that I would be able to fit perfectly in any position as I
+            am a very flexible worker; I can excel in any environment that I am
+            in. The team at my last position was relatively small, therefore I
+            had a hand in a little bit of everything when it came to designing
+            and deploying our webapps. I worked with Product Mangers to
+            determine what critical and nice-to-have features looked like based
+            on requirements given by stakeholders. I gave feedback and
+            suggestions to our designer for what our webapps would look like. I
+            assisted our lead engineer in provisioning deployment tools and AWS
+            services as well as frameworks for our webapps. I also had a hand in
+            helping our DevOps engineer when it came to the containerization of
+            our app using Docker.
+          </Typography>
         </Grid>
         <Grid size={2} />
       </Grid>

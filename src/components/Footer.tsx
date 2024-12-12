@@ -49,7 +49,7 @@ export default function Footer() {
           m={6}
         >
           {socialMedia.map((web, _) => (
-            <Box width={{ md: "100%", xs: "30%" }} key={web.name}>
+            <Box width={{ md: "100%", xs: "35%" }} key={web.name}>
               <Button
                 fullWidth
                 variant="contained"
