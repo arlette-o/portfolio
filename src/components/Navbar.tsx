@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" style={{ background: "#121D40" }}>
+    <AppBar position="sticky" style={{ background: "#121D40" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography

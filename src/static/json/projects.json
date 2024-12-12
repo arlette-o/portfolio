@@ -1,27 +1,27 @@
 [
   {
     "title": "JapaneZ",
-    "image": "",
-    "description": "Learn the Japanese alphabet Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "image": "/images/JapaneZ.png",
+    "description": "Facilitates the learning of the three Japanese alphabets. This app allows users to practice their writing, listening, and test their knowledge.\nTechnologies used: React, Redux, MUI, AWS S3"
   },
   {
     "title": "JournalMe",
-    "image": "",
-    "description": "Based off of Bullet Journals Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "image": "/images/JournalMe.png",
+    "description": "Organizational web app where a user can log in to view notes, reminders, and set personal goals. It was inspired by bullet journaling tiktoks! \nTechnologies used: React, Redux, MUI, MongoDB"
   },
   {
     "title": "ProjectOne",
     "image": "",
-    "description": "Blog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "description": "A CyberSecurity blog created with one other developer. Here we updated with cybersecurity news and capture the flag problems we enjoyed. \nTechnologies used: React, ChakraUI, MongoDB"
   },
   {
     "title": "Bookie Django",
-    "image": "",
-    "description": "In progress Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "image": "/images/django_logo.png",
+    "description": "A work in progress - this project will simulate a hotel booking site. \n Technologies used: Django, PostgreSQL, MUI, React"
   },
   {
     "title": "C# Employee project",
-    "image": "",
-    "description": "Planned project Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    "image": "/images/asp.net.logo.png",
+    "description": " An unamed planned project where employers can keep track of their employees work history and information."
   }
 ]

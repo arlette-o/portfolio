@@ -27,7 +27,7 @@ export default function Footer() {
           <img
             className="image"
             src="/images/olalde_square.jpg"
-            alt="Picture of Arlette"
+            alt="Arlette Profile Pic"
             style={{ width: "10vw", height: "20vh" }}
           />
           <Box alignContent={"center"} width={{ md: "45%" }}>
@@ -49,7 +49,7 @@ export default function Footer() {
           m={6}
         >
           {socialMedia.map((web, _) => (
-            <Box width={{ md: "100%", xs: "30%" }}>
+            <Box width={{ md: "100%", xs: "30%" }} key={web.name}>
               <Button
                 fullWidth
                 variant="contained"

@@ -38,7 +38,7 @@ export default function Projects() {
       <br />
       <Grid container>
         <Grid size={1} />
-        <Grid size={2}>
+        <Grid size={{ md: 2, xs: 10 }}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
             <CardContent>
               <Typography gutterBottom sx={{ fontSize: 26 }}>
@@ -60,7 +60,7 @@ export default function Projects() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid size={6} textAlign={"center"}>
+        <Grid size={{ md: 6, xs: 12 }} textAlign={"center"}>
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
@@ -70,7 +70,7 @@ export default function Projects() {
             />
           </Box>
         </Grid>
-        <Grid size={2}>
+        <Grid size={{ md: 2, xs: 12 }}>
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
@@ -85,7 +85,7 @@ export default function Projects() {
       <br />
       <Grid container>
         <Grid size={1} />
-        <Grid size={2}>
+        <Grid size={{ md: 2, xs: 10 }}>
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
             <CardContent>
               <Typography gutterBottom sx={{ fontSize: 26 }}>
@@ -106,7 +106,7 @@ export default function Projects() {
           </Card>
         </Grid>
 
-        <Grid size={6} textAlign={"center"}>
+        <Grid size={{ md: 6, xs: 12 }} textAlign={"center"}>
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
@@ -116,7 +116,7 @@ export default function Projects() {
             />
           </Box>
         </Grid>
-        <Grid size={2}>
+        <Grid size={{ md: 2, xs: 12 }}>
           <Box sx={{ background: "#809BB3" }}>
             <img
               className="image"
