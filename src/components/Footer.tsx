@@ -32,11 +32,11 @@ export default function Footer() {
           />
           <Box alignContent={"center"} width={{ md: "45%" }}>
             <Typography color="white" sx={{ fontSize: "1 rem" }}>
-              In terms of soft skills, I bring decisiveness, intuition, and
-              problem solving to the team as well as a friendly demeanor. I
-              enjoy the challenge of learning new technologies and applying
-              them. I don't shy from asking questions and letting the team know
-              when I need help.
+              {" "}
+              In my free time I like to experiment with new technologies, listen
+              to cybersecurity podcasts, and express myself creatively through
+              music and art. I appreciate you inquiring about my professional
+              journey. Feel free to connect with me!
             </Typography>
           </Box>
         </Stack>
