@@ -5,9 +5,9 @@ import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
-import CardMedia from "@mui/material/CardMedia";
 
 import SkillCardProps from "../static/types/SkillCardProps.tsx";
+import { skillsLogos } from "../static/constants/skillsLogos.tsx";
 
 export default function SkillCard(props: SkillCardProps) {
   const adv = props.proficiency === "Advanced";
@@ -30,12 +30,7 @@ export default function SkillCard(props: SkillCardProps) {
             </Typography>
           </Box>
 
-          <CardMedia
-            component="img"
-            sx={{ width: 151 }}
-            image={props.logo}
-            alt={props.name + " Logo"}
-          />
+          {skillsLogos[props.logo]}
         </Stack>
         <Typography
           variant="body2"
