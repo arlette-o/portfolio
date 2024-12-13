@@ -4,7 +4,7 @@
     "type": "Frontend Development",
     "logo": 0,
     "description": "JavaScript library for building user interfaces",
-    "experience": "",
+    "experience": "Preferred front-end library, all my professional experience is with React and most of my projects were built with this framework. \n2 years professional experience, haave worked with this framework for 4 years.",
     "proficiency": "Advanced"
   },
   {
@@ -12,7 +12,7 @@
     "type": "Frontend Development",
     "logo": 1,
     "description": "State management library for JavaScript apps",
-    "experience": "",
+    "experience": "Used this library at my last position to manage the states across the website.\n Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -20,7 +20,7 @@
     "type": "Frontend Development",
     "logo": 2,
     "description": "A popular React UI framework that provides a set of components based on Material Design.",
-    "experience": "",
+    "experience": "I love this front-end library, it really takes out all the tediousness from front-end development. Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -28,7 +28,7 @@
     "type": "Frontend Development",
     "logo": 3,
     "description": "A React framework for building server-side rendered applications.",
-    "experience": "",
+    "experience": "I used this framework to build my LaundroMapp app!",
     "proficiency": "Intermediate"
   },
   {
@@ -36,7 +36,7 @@
     "type": "Frontend Development",
     "logo": 4,
     "description": "Design tool for UI/UX, commonly used for creating wireframes and prototypes.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -44,7 +44,7 @@
     "type": "Backend Development",
     "logo": 5,
     "description": "JavaScript runtime for building server-side applications.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -52,7 +52,7 @@
     "type": "Backend Development",
     "logo": 6,
     "description": "Web framework for Node.js to build APIs and web apps.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -92,7 +92,7 @@
     "type": "Backend Development",
     "logo": 11,
     "description": "A set of rules for building APIs that allow communication between systems using HTTP methods.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -100,7 +100,7 @@
     "type": "Databases",
     "logo": 12,
     "description": "NoSQL database, document-based.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -116,7 +116,7 @@
     "type": "Databases",
     "logo": 14,
     "description": "A GUI and IDE for working with MongoDB databases.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -124,7 +124,7 @@
     "type": "Testing and Quality Assurance",
     "logo": 15,
     "description": "A tool for testing APIs",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -148,7 +148,7 @@
     "type": "Testing and Quality Assurance",
     "logo": 18,
     "description": "A software development process where tests are written before the code.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -156,7 +156,7 @@
     "type": "Version Control",
     "logo": 19,
     "description": "Distributed version control system for tracking code changes.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -164,7 +164,7 @@
     "type": "CI/CD",
     "logo": 20,
     "description": "Continuous Integration and Continuous Deployment practices, automating the integration and deployment process.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -196,7 +196,7 @@
     "type": "Cloud and DevOps",
     "logo": 24,
     "description": "Monitoring and analytics platform for cloud-scale applications.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -204,7 +204,7 @@
     "type": "Project Management and Methodologies",
     "logo": 25,
     "description": "Agile practices and Scrum framework for iterative project management and development.",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -212,7 +212,7 @@
     "type": "Project Management and Methodologies",
     "logo": 26,
     "description": "Project management and issue tracking tool",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -220,7 +220,7 @@
     "type": "Programming Language",
     "logo": 27,
     "description": "",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -228,7 +228,7 @@
     "type": "Programming Language",
     "logo": 28,
     "description": "",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -236,7 +236,7 @@
     "type": "Programming Language",
     "logo": 29,
     "description": "",
-    "experience": "",
+    "experience": "Over 2 years professional experience",
     "proficiency": "Advanced"
   },
   {
@@ -268,7 +268,7 @@
     "type": "Programming Language",
     "logo": 33,
     "description": "",
-    "experience": "",
+    "experience": "I have used this language since college. I love managing my own memory, this language taught me how to be detail oriented.",
     "proficiency": "Advanced"
   }
 ]

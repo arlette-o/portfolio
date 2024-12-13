@@ -39,14 +39,14 @@ export default function SkillCard(props: SkillCardProps) {
         >
           {props.description}
         </Typography>
-        {props.experience === "" && (
+        {props.experience && (
           <>
             <Typography gutterBottom variant="body2" component="div">
               My Experience
             </Typography>
 
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              [To be filled]
+              {props.experience}
             </Typography>
           </>
         )}
