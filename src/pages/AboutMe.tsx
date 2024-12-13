@@ -42,7 +42,7 @@ export default function AboutMe() {
             am a very flexible worker; I can excel in any environment that I am
             in. The team at my last position was relatively small, therefore I
             had a hand in a little bit of everything when it came to designing
-            and deploying our webapps. I worked with Product Mangers to
+            and deploying our webapps. I worked with Product Managers to
             determine what critical and nice-to-have features looked like based
             on requirements given by stakeholders. I gave feedback and
             suggestions to our designer for what our webapps would look like. I
