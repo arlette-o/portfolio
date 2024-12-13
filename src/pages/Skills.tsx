@@ -15,6 +15,7 @@ const skillCardsInit: SkillCardProps[] = skills.map((item) => ({
   logo: item.logo,
   type: item.type,
   description: item.description,
+  experience: item.experience,
   proficiency: item.proficiency as "Advanced" | "Intermediate" | "Beginner",
 }));
 
@@ -75,6 +76,7 @@ export default function Skills() {
               name={skill.name}
               type={skill.type}
               logo={skill.logo}
+              experience={skill.experience}
               description={skill.description}
               proficiency={skill.proficiency}
             />

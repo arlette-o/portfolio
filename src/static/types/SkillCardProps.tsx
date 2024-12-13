@@ -3,6 +3,7 @@ type SkillCardProps = {
   type: string;
   logo: number;
   description: string;
+  experience: string;
   proficiency: "Advanced" | "Intermediate" | "Beginner";
 };
 
