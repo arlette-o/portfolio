@@ -20,16 +20,19 @@ export default function Footer() {
         <Stack
           direction="row"
           spacing={3}
-          ml={"10vw"}
+          ml={{ xl: "10vw", xs: "2vw" }}
           width={{ md: "45%" }}
           m={{ md: 6 }}
         >
-          <img
-            className="image"
-            src="/images/olalde_square.jpg"
-            alt="Arlette Profile Pic"
-            style={{ width: "10vw", height: "20vh" }}
-          />
+          <Box sx={{ width: { xl: "20%", lg: "20%", xs: "150%" } }}>
+            <br />
+            <img
+              className="image"
+              src="/images/olalde_square.jpg"
+              alt="Arlette Profile Pic"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </Box>
           <Box alignContent={"center"} width={{ md: "45%" }}>
             <Typography color="white" sx={{ fontSize: "1 rem" }}>
               {" "}
