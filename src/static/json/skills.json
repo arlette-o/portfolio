@@ -40,6 +40,14 @@
     "proficiency": "Advanced"
   },
   {
+    "name": "React Native",
+    "type": "Mobile Development",
+    "logo": 0,
+    "description": "",
+    "experience": "", 
+    "proficiency": "Beginner"
+  },
+  {
     "name": "Node.js",
     "type": "Backend Development",
     "logo": 5,
