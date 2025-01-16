@@ -16,7 +16,7 @@
   },
   {
     "title": "Bookie Django",
-    "image": "/images/django_logo.png",
+    "image": "/images/bookie_Web.png",
     "description": "A work in progress - this project will simulate a hotel booking site. \n Technologies used: Django, PostgreSQL, MUI, React"
   },
   {
