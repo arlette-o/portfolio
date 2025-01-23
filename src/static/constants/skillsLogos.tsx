@@ -12,6 +12,7 @@ import {
   faJs,
   faPython,
   faJava,
+  faAngular,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
@@ -26,8 +27,8 @@ export const skillsLogos: JSX.Element[] = [
   <div />, //  MUI (Material-UI) 2
   <div />, // Next.js 3
   <FontAwesomeIcon icon={faFigma} size="xl" />, // Figma 4
-  <FontAwesomeIcon icon={faNodeJs} size="xl" />, // Node.js
-  <FontAwesomeIcon icon={faServer} size="xl" />, //  Express
+  <FontAwesomeIcon icon={faNodeJs} size="xl" />, // Node.js 5
+  <FontAwesomeIcon icon={faServer} size="xl" />, //  Express 6
   <div />, // Flask
   <div />, // Django
   <div />, // GraphQL
@@ -55,4 +56,5 @@ export const skillsLogos: JSX.Element[] = [
   <FontAwesomeIcon icon={faCode} size="xl" />, //SQL
   <FontAwesomeIcon icon={faCode} size="xl" />, //C#
   <FontAwesomeIcon icon={faCode} size="xl" />, //C
+  <FontAwesomeIcon icon={faAngular} size="xl" />, //34
 ];

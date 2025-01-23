@@ -40,11 +40,19 @@
     "proficiency": "Advanced"
   },
   {
+    "name": "Angular",
+    "type": "Frontend Development",
+    "logo": 34,
+    "description": "Design tool for UI/UX, commonly used for creating wireframes and prototypes.",
+    "experience": "Currently learning framework",
+    "proficiency": "Beginner"
+  },
+  {
     "name": "React Native",
     "type": "Mobile Development",
     "logo": 0,
     "description": "",
-    "experience": "", 
+    "experience": "",
     "proficiency": "Beginner"
   },
   {
