@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import Navbar from "./components/Navbar.tsx";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
+        <Analytics />
       </ThemeProvider>
     </Router>
   );
