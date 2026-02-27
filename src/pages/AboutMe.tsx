@@ -32,7 +32,7 @@ export default function AboutMe() {
             sx={{ fontSize: { xs: "1.8rem", sm: "3rem", md: "3rem" } }}
           >
             Hi. I am Arlette Olalde, a Los Angeles based Full Stack Developer
-            with over 2 years of experience.
+            with over 3 years of experience.
           </Typography>
           <Typography variant="h6" gutterBottom>
             Languages: JavaScript, TypeScript, Python, Java, SQL, C#, C

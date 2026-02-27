@@ -25,6 +25,7 @@ const pages: WebPageProps[] = [
 
 function ResponsiveAppBar() {
   const navigate = useNavigate();
+  const [tab, setTab] = React.useState<string>("/");
   const [navAnchor, setNavAnchor] = React.useState<null | HTMLElement>(null);
   const [userAnchor, setUserAnchor] = React.useState<null | HTMLElement>(null);
 
@@ -38,6 +39,7 @@ function ResponsiveAppBar() {
   const closeNavMenu = (url: string) => {
     navigate(url);
     setNavAnchor(null);
+    setTab(url);
   };
 
   const closeMenu = () => {
@@ -48,6 +50,16 @@ function ResponsiveAppBar() {
     window.open(url);
     closeMenu();
   };
+
+  const setTabName = (path: string) => {
+    setTab(path);
+  };
+
+  React.useEffect(() => {
+    const { pathname } = window.location;
+
+    setTabName(pathname);
+  }, []);
 
   return (
     <AppBar position="sticky" style={{ background: "#121D40" }}>
@@ -73,8 +85,6 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={openNavMenu}
               color="inherit"
@@ -134,7 +144,7 @@ function ResponsiveAppBar() {
                 onClick={() => closeNavMenu(page.url)}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page.name}
+                {page.url === tab ? <u>{page.name}</u> : page.name}
               </Button>
             ))}
           </Box>
