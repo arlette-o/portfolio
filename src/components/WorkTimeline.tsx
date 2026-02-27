@@ -34,7 +34,7 @@ export default function WorkTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">
-            Kixie Online inc. - Software Developer, Internal Tooling
+            Kixie Online Inc. - Software Developer, Internal Tooling
           </Typography>{" "}
           At Kixie, I worked across a pretty wide range of projects that had
           real impact on how the company operated day-to-day. I architected an
@@ -70,8 +70,10 @@ export default function WorkTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography variant="h6">Veteran Benefits Guide </Typography> In my
-          role, I contributed to the overall development and custom
+          <Typography variant="h6">
+            Veteran Benefits Guide - Full Stack Developer{" "}
+          </Typography>{" "}
+          In my role, I contributed to the overall development and custom
           implementation of VBG webApps, ensuring that both new and existing
           systems met our evolving needs. This included maintaining legacy
           applications and developing innovative internal tools that enhanced
