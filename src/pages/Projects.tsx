@@ -48,6 +48,55 @@ export default function Projects() {
           <Card sx={{ minWidth: 275, background: "#809BB3" }}>
             <CardContent>
               <Typography gutterBottom sx={{ fontSize: 26 }}>
+                Kixie Inventory
+              </Typography>
+              <Divider />
+              <Typography gutterBottom variant="body2">
+                <strong>DESCRIPTION</strong> <br />A portal where Kixie IT team
+                can view and manage proprietary inventory for the company.
+              </Typography>
+              <Divider />
+              <Typography gutterBottom variant="body2">
+                <strong>RESPONSIBILITIES</strong>
+                <br /> Solo full stack project designed, architected, and
+                deployed as a team of one.
+              </Typography>
+              <Divider />
+              <Typography gutterBottom variant="body2">
+                <strong>TECHNOLOGIES</strong>
+                <li>Typescript </li>
+                <li>Ant Design</li>
+                <li>React/Vite</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>AWS RDS </li>
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+
+        <Grid size={0.5} />
+
+        <Grid size={{ md: 6, xs: 12 }} textAlign={"center"}>
+          <Box sx={{ background: "#809BB3" }}>
+            <img
+              className="image"
+              src="/images/kixieInventory.png"
+              alt="VBG_Desktop"
+              style={{ width: "90%", height: "auto" }}
+            />
+          </Box>
+        </Grid>
+        <Grid size={{ md: 2, xs: 12 }}></Grid>
+      </Grid>
+      <br />
+      <br />
+      <Grid container>
+        <Grid size={0.7} />
+        <Grid size={{ md: 2, xs: 10 }}>
+          <Card sx={{ minWidth: 275, background: "#809BB3" }}>
+            <CardContent>
+              <Typography gutterBottom sx={{ fontSize: 26 }}>
                 VBG Client Portal
               </Typography>
               <Divider />
