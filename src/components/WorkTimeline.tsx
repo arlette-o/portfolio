@@ -23,6 +23,43 @@ export default function WorkTimeline() {
     >
       <TimelineItem>
         <TimelineOppositeContent color="text.secondary">
+          2025-Present
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot sx={{ background: "#121D40" }}>
+            <WorkIcon />
+          </TimelineDot>
+          <TimelineConnector />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Typography variant="h6">
+            Kixie Online inc. - Software Developer, Internal Tooling
+          </Typography>{" "}
+          At Kixie, I worked across a pretty wide range of projects that had
+          real impact on how the company operated day-to-day. I architected an
+          automated phone number rotation and replenishment system running as a
+          Kubernetes CronJob, which meaningfully improved how the team handled
+          spam remediation for their VoIP platform. I also built an internal
+          Slack bot that brought incident management into one place — connecting
+          PagerDuty, Notion, and AWS CloudWatch — and ended up cutting both
+          response and notification times in half. On the IT side, I built a
+          full-stack asset tracking app from scratch that replaced a messy
+          manual process, saving money on software and finally putting an end to
+          lost equipment. I also got to work on something pretty cool on the
+          recruiting side — AI-powered resume screening tools that automatically
+          scored candidates against a weighted rubric and surfaced concise
+          summaries, making the hiring process a lot faster for the team. The
+          environment was fast-paced and always evolving. I got comfortable
+          jumping between priorities, collaborating with teams of different
+          sizes, and picking up context quickly when things shifted. Whether it
+          was a last-minute pivot or a new initiative that needed to move fast,
+          I learned to stay productive and deliver quality work without losing
+          momentum.
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent color="text.secondary">
           2022 - 2024
         </TimelineOppositeContent>
         <TimelineSeparator>
